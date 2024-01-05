@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/nosotros.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/abc-de-plantas.html">ABC de plantas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--Contenido de la pagina  -->
+
+    <h1>Bienvenidos a Bloom Spring</h1>
+
+    <main>
+        <p class="parrafoPrincipal">Somos un emprendimiento familiar ubicados en la Ciudad de Buenos Aires. Aqui
+            encontraras plantas de interior y todo para su cuidado.
+        </p>
+
+        <p class="parrafoPrincipal">Si quieres saber más acerca de nosotros y donde nos puedes encontrar haga
+            <a href="./html/nosotros.html">click aqui
+            </a>
+        </p>
+    </main>
+
+    <!-- Carousel -->
+
+    <div id="carouselPaginaPrincipal" class="carousel slide carousel-fade m-auto">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/mujer--con--flores.jpg" class="d-block w-75 mx-auto" alt="Mujer con flores">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/hombre--escribiendo.jpg" class="d-block w-75 mx-auto" alt="Hombre escribiendo">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/mujer-escribiendo.jpg" class="d-block w-75 mx-auto" alt="Mujer escribiendo">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaginaPrincipal"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior/span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPaginaPrincipal"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Divisor -->
+
+    <div class="divisor"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="derechos">
+            <p>Todos los derechos reservados 2023</p>
+        </div>
+
+        <div>
+            <nav class="redes">
+                <a href="https://www.facebook.com/" target="_blank"><img class="iconosRedes"
+                        src="./img/icono--facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="iconosRedes"
+                        src="./img/icono--instagram.png" alt="Instagram"></a>
+                <a href="https://www.threads.net/" target="_blank"><img class="iconosRedes"
+                        src="./img/icono--threads.png" alt="Threads"></a>
+                <a href="https://twitter.com/" target="_blank"><img class="iconosRedes" src="./img/icono--twitter.png"
+                        alt="Twitter"></a>
+
+            </nav>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

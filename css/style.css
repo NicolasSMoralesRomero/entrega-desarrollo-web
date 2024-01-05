@@ -1,0 +1,146 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Saira+Condensed:wght@300&display=swap');
+
+
+/* Body */
+
+body{
+    background-color: #BFD8BD;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+/* NAVBAR */
+.logo{
+    width: 130px;
+}
+
+.navbar{
+    background-color: #DDE7C7;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Pagina principal */
+
+h1{
+    color: #732C2C;
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 25px;
+}
+
+.parrafoPrincipal{
+    color: #732C2C;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+p{
+    color: #732C2C;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Carousel pagina principal */
+
+
+/* Divisor */
+
+.divisor{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: #DDE7C7;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 50px 10px 15px;
+}
+
+.derechos p{
+    color: black;
+}
+
+.redes{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.iconosRedes{
+    height: 30px;
+    width: 30px;
+}
+
+
+/* Media Querie footer */
+@media (max-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+
+    .derechos{
+        padding-bottom: 15px;
+    }
+
+    .redes{
+        gap: 35px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Pagina "Nosotros" */
+
+.contenedorImgLocal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    max-width: 97%;
+    padding: 1% 1% 4% 4%;
+}
+
+.imgLocal{
+    height: 33%;
+    width: 33%;  
+}
+
+@media (max-width: 768px){
+    .contenedorImgLocal{
+        flex-direction: column;
+        padding: 5%;
+        gap: 30px;
+    }
+
+    .imgLocal{
+        height: 80%;
+        width: 80%;
+    }
+}
+
+/* Mapa */
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
