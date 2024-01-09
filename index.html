@@ -49,9 +49,10 @@
 
     <!--Contenido de la pagina  -->
 
-    <h1>Bienvenidos a Bloom Spring</h1>
-
     <main>
+        <h1>Bienvenidos a Bloom Spring</h1>
+
+
         <p class="parrafoPrincipal">Somos un emprendimiento familiar ubicados en la Ciudad de Buenos Aires. Aqui
             encontraras plantas de interior y todo para su cuidado.
         </p>
@@ -60,45 +61,43 @@
             <a href="./html/nosotros.html">click aqui
             </a>
         </p>
+
+
+        <!-- Carousel -->
+
+        <div id="carouselPaginaPrincipal" class="carousel slide carousel-fade container-fluid p-4">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/mujer--con--flores.webp" class="d-block w-75 mx-auto" alt="Mujer con flores">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hombre--escribiendo.webp" class="d-block w-75 mx-auto" alt="Hombre escribiendo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/mujer-escribiendo.webp" class="d-block w-75 mx-auto" alt="Mujer escribiendo">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaginaPrincipal"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior/span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPaginaPrincipal"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
     </main>
-
-    <!-- Carousel -->
-
-    <div id="carouselPaginaPrincipal" class="carousel slide carousel-fade m-auto">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselPaginaPrincipal" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/mujer--con--flores.jpg" class="d-block w-75 mx-auto" alt="Mujer con flores">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/hombre--escribiendo.jpg" class="d-block w-75 mx-auto" alt="Hombre escribiendo">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/mujer-escribiendo.jpg" class="d-block w-75 mx-auto" alt="Mujer escribiendo">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaginaPrincipal"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior/span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselPaginaPrincipal"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-
-    <!-- Divisor -->
-
-    <div class="divisor"></div>
 
     <!-- Footer -->
     <footer>

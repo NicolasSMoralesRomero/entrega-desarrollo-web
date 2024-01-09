@@ -33,7 +33,7 @@ a:link, a:visited, a:active {
 h1{
     color: #732C2C;
     font-family: 'Kanit', sans-serif;
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     padding: 25px;
 }
@@ -41,7 +41,7 @@ h1{
 .parrafoPrincipal{
     color: #732C2C;
     font-family: 'Saira Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
 
