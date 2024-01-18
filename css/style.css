@@ -141,3 +141,39 @@ footer {
     align-content: center;
     padding: 25px;
 }
+
+/* Imagenes tienda */
+
+h2{
+    color: #732C2C;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.imgTienda{
+    height: 100px;
+    width: 100px;
+}
+
+.pTienda{
+    color: #732C2C;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hTienda{
+    text-align: center;
+}
+
+.contenedorImg{
+    text-align: center;
+    align-items: center;
+}
+
+.card{
+    border: ;
+}
