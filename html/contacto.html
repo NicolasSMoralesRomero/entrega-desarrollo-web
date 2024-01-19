@@ -48,7 +48,7 @@
         </nav>
     </header>
 
-    <div>
+    <!-- <div>
         <form>
             <h1>Envianos tu consulta</h1>
 
@@ -66,6 +66,86 @@
             <input type="submit">
             <input type="reset">
         </form>
+    </div> 
+
+<div class="col-xl-3 col-md-6 col-sm-12 m-auto p-auto">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 m-auto p-auto">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 m-auto p-auto form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>-->
+
+    <!-- Formulario de contacto -->
+
+    <main>
+        <h1>Contacto</h1>
+        <h2>Para ponerte en contacto podes hacerlo a nustras redes sociales o completando el siguiente formulario y te
+            contactaremos lo antes posible.</h2>
+
+        <form class="container-fluid">
+            <div class="column">
+                <div class="col-xl-5 col-md-7 col-sm-10 m-auto p-2">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="col-xl-5 col-md-7 col-sm-10 m-auto p-2">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido">
+                </div>
+                <div class="col-xl-5 col-md-7 col-sm-10 m-auto p-2">
+                    <label for="telefono" class="form-label">Telefono de contacto</label>
+                    <input type="number" class="form-control" id="telefono">
+                </div>
+                <div class="col-xl-5 col-md-7 col-sm-10 m-auto p-2">
+                    <label for="email" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-xl-5 col-md-7 col-sm-10 m-auto p-2">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea type="text" class="form-control" id="mensaje" cols="20" rows="10"></textarea>
+                </div>
+
+                <div class="contenedorBtn">
+                    <button type="button" class="btn btn-success"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Enviar
+                    </button>
+
+                    <button type="reset" class="btn btn-success   ">Reiniciar</button>
+                </div>
+            </div>
+
+
+
+        </form>
+
+
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Gracias por enviar tu comentario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Hemos recibido su mensaje, le contestaremos pronto</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
