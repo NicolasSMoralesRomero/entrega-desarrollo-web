@@ -183,3 +183,34 @@ h2{
     gap: 15%;
     padding: 30px;
 }
+
+/* Cards */
+
+.btnTienda{
+    transition: all 0.7s;
+}
+
+.btnTienda:hover{
+    transition: all 0.5s linear;
+    transform: scale(105%);
+}
+
+.contenedorImgTienda{
+    transition: all 0.7s;
+}
+
+.contenedorImgTienda:hover{
+    transition: all 0.7s linear;
+    transform: scale(108%);
+}
+
+/* hover iconos redes */
+
+.iconosRedes{
+    transition: all 0.8s;
+}
+
+.iconosRedes:hover{
+    transition: all 0.8s;
+    filter: contrast(50%);
+ }
