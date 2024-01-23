@@ -212,5 +212,6 @@ h2{
 
 .iconosRedes:hover{
     transition: all 0.8s;
-    filter: contrast(50%);
+    
+    transform: rotate(100deg);
  }
