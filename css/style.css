@@ -83,10 +83,15 @@ footer {
 }
 
 .iconosRedes{
+    transition: all 0.8s;
     height: 30px;
     width: 30px;
 }
 
+.iconosRedes:hover{
+    transition: all 0.8s;
+    transform: rotate(100deg);
+ }
 
 /* Media Querie footer */
 @media (max-width: 768px){
@@ -203,15 +208,3 @@ h2{
     transition: all 0.7s linear;
     transform: scale(108%);
 }
-
-/* hover iconos redes */
-
-.iconosRedes{
-    transition: all 0.8s;
-}
-
-.iconosRedes:hover{
-    transition: all 0.8s;
-    
-    transform: rotate(100deg);
- }
