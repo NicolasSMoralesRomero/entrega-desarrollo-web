@@ -54,13 +54,6 @@ p{
     text-align: center;
 }
 
-/* Divisor */
-
-.divisor{
-    margin: 10px;
-    padding: 10px;
-}
-
 /* FOOTER */
 
 footer {
@@ -90,7 +83,7 @@ footer {
 
 .iconosRedes:hover{
     transition: all 0.8s linear;
-    transform: rotate(100deg);
+    transform: rotate(90deg);
  }
 
 /* Media Querie footer */
@@ -122,7 +115,13 @@ footer {
 
 .imgLocal{
     height: 33%;
-    width: 33%;  
+    width: 33%; 
+    transition: all 0.7s; 
+}
+
+.imgLocal:hover{
+    transition: all 0.7s;
+    transform: scale(109%);
 }
 
 @media (max-width: 768px){
@@ -161,7 +160,9 @@ h2{
 .imgTienda{
     height: 100px;
     width: 100px;
+    transition: all 0.7s;
 }
+
 
 .pTienda{
     color: #732C2C;
@@ -172,6 +173,7 @@ h2{
 
 .hTienda{
     text-align: center;
+    font-size: 150%;
 }
 
 .contenedorImg{
@@ -207,4 +209,14 @@ h2{
 .contenedorImgTienda:hover{
     transition: all 0.7s linear;
     transform: scale(108%);
+}
+
+.tarjeta{
+    border-style: none;
+}
+
+.contenedorCard{
+    border: 10px solid #DDE7C7;
+    padding: 5%;
+    border-radius: 15px;
 }
