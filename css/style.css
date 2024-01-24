@@ -194,7 +194,7 @@ h2{
 /* Cards */
 
 .btnTienda{
-    transition: all 0.7s;
+    transition: all 0.7s linear;
 }
 
 .btnTienda:hover{
