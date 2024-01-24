@@ -1,0 +1,40 @@
+/* Body */
+
+body {
+  background-color: $color-fondo;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+
+  &:link,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  color: $color-fuente;
+  font-size: 55px;
+  padding: 25px;
+  @include fuente-principal;
+}
+
+.parrafoPrincipal {
+  color: $color-fuente;
+  font-size: 20px;
+  padding: 10px;
+  @include fuente-secundaria;
+}
+
+p {
+  color: $color-fuente;
+  font-size: 20px;
+  @include fuente-secundaria;
+
+}

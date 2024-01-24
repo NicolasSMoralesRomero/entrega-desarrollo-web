@@ -1,0 +1,21 @@
+/* Pagina "Nosotros" */
+
+.contenedorImgLocal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    max-width: 97%;
+    padding: 1% 1% 4% 4%;
+}
+
+.imgLocal {
+    height: 33%;
+    width: 33%;
+    transition: all 0.7s;
+
+    &:hover {
+        transition: all 0.7s;
+        transform: scale(109%);
+    }
+}

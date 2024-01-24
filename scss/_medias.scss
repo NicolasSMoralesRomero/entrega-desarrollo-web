@@ -1,0 +1,29 @@
+/* Media Querie footer */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .derechos {
+        padding-bottom: 15px;
+    }
+
+    .redes {
+        gap: 35px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Media Querie pagina nosotros */
+@media (max-width: 768px) {
+    .contenedorImgLocal {
+        flex-direction: column;
+        padding: 5%;
+        gap: 30px;
+    }
+
+    .imgLocal {
+        height: 80%;
+        width: 80%;
+    }
+}

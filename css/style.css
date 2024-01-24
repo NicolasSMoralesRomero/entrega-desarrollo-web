@@ -1,222 +1,201 @@
-/* Fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Saira+Condensed:wght@300&display=swap');
-
-
-/* Body */
-
-body{
-    background-color: #BFD8BD;
-    max-width: 100%;
+/* Cards */
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Saira+Condensed:wght@300&display=swap");
+.btnTienda {
+  transition: all 0.7s linear;
+}
+.btnTienda:hover {
+  transition: all 0.5s linear;
+  transform: scale(105%);
 }
 
-li{
-    list-style: none;
+.contenedorImgTienda {
+  transition: all 0.7s;
+}
+.contenedorImgTienda:hover {
+  transition: all 0.7s linear;
+  transform: scale(108%);
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
+.tarjeta {
+  border-style: none;
 }
 
-/* NAVBAR */
-.logo{
-    width: 130px;
-}
-
-.navbar{
-    background-color: #DDE7C7;
-    border-radius: 0 0 10px 10px;
-}
-
-/* Pagina principal */
-
-h1{
-    color: #732C2C;
-    font-family: 'Kanit', sans-serif;
-    font-size: 55px;
-    text-align: center;
-    padding: 25px;
-}
-
-.parrafoPrincipal{
-    color: #732C2C;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-
-}
-
-p{
-    color: #732C2C;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
+.contenedorCard {
+  border: 10px solid #DDE7C7;
+  padding: 5%;
+  border-radius: 15px;
 }
 
 /* FOOTER */
-
 footer {
-    display: flex;
-    background-color: #DDE7C7;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px 10px 0 0;
-    padding: 20px 50px 10px 15px;
+  display: flex;
+  background-color: #DDE7C7;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 50px 10px 15px;
 }
 
-.derechos p{
-    color: black;
+.derechos p {
+  color: #000000;
 }
 
-.redes{
-    display: flex;
-    gap: 50px;
-    
+.redes {
+  display: flex;
+  gap: 50px;
 }
 
-.iconosRedes{
-    transition: all 0.8s;
-    height: 30px;
-    width: 30px;
+.iconosRedes {
+  transition: all 0.8s;
+  height: 30px;
+  width: 30px;
 }
-
-.iconosRedes:hover{
-    transition: all 0.8s linear;
-    transform: rotate(90deg);
- }
-
-/* Media Querie footer */
-@media (max-width: 768px){
-    footer{
-        flex-direction: column;
-    }
-
-    .derechos{
-        padding-bottom: 15px;
-    }
-
-    .redes{
-        gap: 35px;
-        padding-bottom: 15px;
-    }
-}
-
-/* Pagina "Nosotros" */
-
-.contenedorImgLocal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
-    max-width: 97%;
-    padding: 1% 1% 4% 4%;
-}
-
-.imgLocal{
-    height: 33%;
-    width: 33%; 
-    transition: all 0.7s; 
-}
-
-.imgLocal:hover{
-    transition: all 0.7s;
-    transform: scale(109%);
-}
-
-@media (max-width: 768px){
-    .contenedorImgLocal{
-        flex-direction: column;
-        padding: 5%;
-        gap: 30px;
-    }
-
-    .imgLocal{
-        height: 80%;
-        width: 80%;
-    }
-}
-
-/* Mapa */
-
-.mapa{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 25px;
-}
-
-/* Imagenes tienda */
-
-h2{
-    color: #732C2C;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    padding: 15px;
-
-}
-
-.imgTienda{
-    height: 100px;
-    width: 100px;
-    transition: all 0.7s;
-}
-
-
-.pTienda{
-    color: #732C2C;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-.hTienda{
-    text-align: center;
-    font-size: 150%;
-}
-
-.contenedorImg{
-    text-align: center;
-    align-items: center;
+.iconosRedes:hover {
+  transition: all 0.8s linear;
+  transform: rotate(90deg);
 }
 
 /* Formulario */
-
-.contenedorBtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15%;
-    padding: 30px;
+.contenedorBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  padding: 30px;
 }
 
-/* Cards */
-
-.btnTienda{
-    transition: all 0.7s linear;
+/* Fuentes */
+/* Body */
+body {
+  background-color: #BFD8BD;
+  max-width: 100%;
 }
 
-.btnTienda:hover{
-    transition: all 0.5s linear;
-    transform: scale(105%);
+li {
+  list-style: none;
 }
 
-.contenedorImgTienda{
-    transition: all 0.7s;
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
 
-.contenedorImgTienda:hover{
-    transition: all 0.7s linear;
-    transform: scale(108%);
+h1 {
+  color: #732C2C;
+  font-size: 55px;
+  padding: 25px;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
 }
 
-.tarjeta{
-    border-style: none;
+.parrafoPrincipal {
+  color: #732C2C;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
 }
 
-.contenedorCard{
-    border: 10px solid #DDE7C7;
+p {
+  color: #732C2C;
+  font-size: 20px;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}
+
+/* Mapa */
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 25px;
+}
+
+/* Media Querie footer */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+  .derechos {
+    padding-bottom: 15px;
+  }
+  .redes {
+    gap: 35px;
+    padding-bottom: 15px;
+  }
+}
+/* Media Querie pagina nosotros */
+@media (max-width: 768px) {
+  .contenedorImgLocal {
+    flex-direction: column;
     padding: 5%;
-    border-radius: 15px;
+    gap: 30px;
+  }
+  .imgLocal {
+    height: 80%;
+    width: 80%;
+  }
 }
+/* NAVBAR */
+.logo {
+  width: 130px;
+}
+
+.navbar {
+  background-color: #DDE7C7;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Pagina "Nosotros" */
+.contenedorImgLocal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  max-width: 97%;
+  padding: 1% 1% 4% 4%;
+}
+
+.imgLocal {
+  height: 33%;
+  width: 33%;
+  transition: all 0.7s;
+}
+.imgLocal:hover {
+  transition: all 0.7s;
+  transform: scale(109%);
+}
+
+/* Imagenes tienda */
+h2 {
+  color: #732C2C;
+  font-size: 30px;
+  padding: 15px;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}
+
+.imgTienda {
+  height: 100px;
+  width: 100px;
+  transition: all 0.7s;
+}
+
+.pTienda {
+  color: #732C2C;
+  font-size: 20px;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}
+
+.hTienda {
+  text-align: center;
+  font-size: 150%;
+}
+
+.contenedorImg {
+  text-align: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+/* Cards */
+
+.btnTienda {
+    transition: all 0.7s linear;
+
+    &:hover {
+        transition: all 0.5s linear;
+        transform: scale(105%);
+    }
+}
+
+.contenedorImgTienda {
+    transition: all 0.7s;
+
+    &:hover {
+        transition: all 0.7s linear;
+        transform: scale(108%);
+    }
+}
+
+.tarjeta {
+    border-style: none;
+}
+
+.contenedorCard {
+    border: 10px solid $color-navbar;
+    padding: 5%;
+    border-radius: 15px;
+}

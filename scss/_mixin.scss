@@ -1,0 +1,11 @@
+//Mixin
+
+@mixin fuente-principal {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+@mixin fuente-secundaria {
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: $color-navbar;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 50px 10px 15px;
+}
+
+.derechos p {
+    color: $color-fuente-sec;
+}
+
+.redes {
+    display: flex;
+    gap: 50px;
+}
+
+.iconosRedes {
+    transition: all 0.8s;
+    height: 30px;
+    width: 30px;
+
+    &:hover {
+        transition: all 0.8s linear;
+        transform: rotate(90deg);
+    }
+}
