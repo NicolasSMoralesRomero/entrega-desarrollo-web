@@ -16,13 +16,13 @@
 
 /* Media Querie pagina nosotros */
 @media (max-width: 768px) {
-    .contenedorImgLocal {
+    div.contenedorImgLocal {
         flex-direction: column;
         padding: 5%;
-        gap: 30px;
+        gap: 20px;
     }
 
-    .imgLocal {
+    img.imgLocal {
         height: 80%;
         width: 80%;
     }

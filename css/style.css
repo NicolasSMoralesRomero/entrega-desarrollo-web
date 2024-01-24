@@ -126,12 +126,12 @@ p {
 }
 /* Media Querie pagina nosotros */
 @media (max-width: 768px) {
-  .contenedorImgLocal {
+  div.contenedorImgLocal {
     flex-direction: column;
     padding: 5%;
-    gap: 30px;
+    gap: 20px;
   }
-  .imgLocal {
+  img.imgLocal {
     height: 80%;
     width: 80%;
   }
@@ -159,10 +159,10 @@ p {
 .imgLocal {
   height: 33%;
   width: 33%;
-  transition: all 0.7s;
+  transition: all 0.7s linear;
 }
 .imgLocal:hover {
-  transition: all 0.7s;
+  transition: all 0.7s linear;
   transform: scale(109%);
 }
 
