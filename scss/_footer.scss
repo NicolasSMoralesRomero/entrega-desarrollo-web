@@ -19,12 +19,11 @@ footer {
 }
 
 .iconosRedes {
-    transition: all 0.8s;
+    transition: all 0.3s linear;
     height: 30px;
     width: 30px;
 
     &:hover {
-        transition: all 0.8s linear;
-        transform: rotate(90deg);
+        transform: scale(130%);
     }
 }

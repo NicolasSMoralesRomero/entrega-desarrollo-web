@@ -12,10 +12,9 @@
 .imgLocal {
     height: 33%;
     width: 33%;
-    transition: all 0.7s linear;
+    transition: all 0.3s linear;
 
     &:hover {
-        transition: all 0.7s linear;
         transform: scale(109%);
     }
 }

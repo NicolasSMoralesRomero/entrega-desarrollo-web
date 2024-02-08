@@ -7,12 +7,6 @@ h2 {
     @include fuente-secundaria;
 }
 
-.imgTienda {
-    height: 100px;
-    width: 100px;
-    transition: all 0.7s;
-}
-
 .pTienda {
     color: $color-fuente;
     font-size: 20px;
